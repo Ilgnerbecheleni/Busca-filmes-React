@@ -1,0 +1,48 @@
+.card {
+    margin-top: 50px;
+    font-size: 0.6em;
+    background: #f5efed;
+    width: 80vw;
+    height: 50vh;
+    text-align: justify;
+    border-radius: 8px;
+    padding: 8px;
+    color:black;
+    -webkit-box-shadow: 2px -14px 97px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 2px -14px 97px 0px rgba(0,0,0,0.38);
+box-shadow: 2px -14px 97px 0px rgba(0,0,0,0.38);
+}
+
+.info {
+    background: #e6e2d9;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.info img {
+    border-radius: 8px;
+}
+
+.poster {
+    width: 70%;
+}
+
+.infoText {
+    width: 90%;
+    text-align: left;
+}
+
+.texts{
+    margin: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+
+        font-size: 0.45em;
+
+    }
+  }

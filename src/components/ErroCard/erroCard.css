@@ -1,0 +1,10 @@
+.erro{
+    width: 200px;
+    background: rgb(206, 144, 144);
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top:20px;
+}

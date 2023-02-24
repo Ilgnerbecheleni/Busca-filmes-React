@@ -2,37 +2,92 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #a72121;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.topo {
+  background: #181f22;
+  width: 100vw;
+  height: 30vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.seacrh {
+  background: #b91d37fa;
+  top: 24vh;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.seacrh input {
+  width: 40%;
+  height: 25px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+.seacrh button {
+  width: 20%;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  font-size: 0.5em;
+  color: white;
+  background-color: rgb(56, 43, 43);
+  text-transform: uppercase;
+}
+
+.sessionCard{
+  top:35vh;
+position: absolute;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .topo {
+    background: #181f22;
+    width: 100vw;
+    height: 20vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .seacrh {
+    top:15vh;
+    width: 90%;
+  }
+
+  .seacrh input {
+    width: 80%;
+  }
+
+
+  .seacrh button {
+    width: 40%;
+  }
+
+  .sessionCard{
+    top:25vh;
+  position: absolute;
   }
 }
