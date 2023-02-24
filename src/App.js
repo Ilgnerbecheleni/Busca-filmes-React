@@ -22,7 +22,7 @@ function App () {
       let requestUrl = `http://www.omdbapi.com/?t=${request}&apikey=e0952c2`
       setUrl(requestUrl)
     } else {
-      console.log('Não foi digitado nada')
+
     }
   }
 
@@ -30,7 +30,7 @@ function App () {
     axios
       .get(url)
       .then(response => {
-        console.log(response.data.Poster)
+
         if (response.data.Response==="True") {
           setCard(true)
           setData(response.data)
